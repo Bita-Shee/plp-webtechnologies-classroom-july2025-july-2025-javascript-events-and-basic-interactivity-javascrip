@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+   <h1>Light / Dark Mode Toggle</h1>
+   <button id="toggleBtn">Switch Mode</button>
+   </br>
+   <h1>Click Counter</h1>
+   <p>You clicked <span id="count">0</span> times.</p>
+   <button id="btn">Click Me!</button>
+   </br>
+   <h1>FAQs</h1>
+    <div class="faq">
+    <div class="question">What is this site about?</div>
+    <div class="answer">This site teaches you JavaScript basics.</div>
+  </div>
+  <div class="faq">
+    <div class="question">How do I start?</div>
+    <div class="answer">Just copy the examples and try them yourself.</div>
+  </div>
+  </br>
+  <h1>Dropdown Example</h1>
+  <div class="dropdown">
+    <button>Menu</button>
+    <div class="menu">
+      <a href="#">Profile</a>
+      <a href="#">Settings</a>
+      <a href="#">Log Out</a>
+    </div>
+  </div>
+  </br>
+  <h1>Tabbed Interface</h1>
+  <div class="tabs">
+    <button data-tab="tab1">Tab 1</button>
+    <button data-tab="tab2">Tab 2</button>
+  </div>
+
+  <div id="tab1" class="tab-content active">This is content for Tab 1</div>
+  <div id="tab2" class="tab-content">This is content for Tab 2</div>
+  </br>
+   <h1>Register</h1>
+  <form id="myForm">
+    <label>Name: <input type="text" id="name"></label>
+    <div class="error" id="nameError"></div>
+
+    <label>Email: <input type="email" id="email"></label>
+    <div class="error" id="emailError"></div>
+
+    <label>Password: <input type="password" id="password"></label>
+    <div class="error" id="passwordError"></div>
+
+    <button type="submit">Submit</button>
+  </form>
+  <p id="successMsg" class="success"></p>
+    <script src="script.js"></script>
+</body>
+</html>

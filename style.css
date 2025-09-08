@@ -1,0 +1,27 @@
+body {
+      background-color: white;
+      color: black;
+      text-align: center;
+      font-family: Arial;
+      padding: 2rem;
+      transition: background 0.3s, color 0.3s;
+    }
+.dark-mode {
+      background-color: black;
+      color: white;
+    }
+
+.answer { display: none; margin: 5px 0 15px; }
+.question { cursor: pointer; font-weight: bold; }
+
+.dropdown { position: relative; display: inline-block; }
+.menu { display: none; position: absolute; background: #eee; padding: 10px; }
+.dropdown:hover .menu { display: block; }
+.menu a { display: block; margin: 5px 0; }
+
+.tabs button { margin: 0 5px; }
+.tab-content { display: none; margin-top: 10px; }
+.tab-content.active { display: block; }
+
+.error { color: red; font-size: 0.9em; }
+.success { color: green; font-weight: bold; }
